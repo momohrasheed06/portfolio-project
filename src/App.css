@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #060606;
+  background-image:
+    radial-gradient(
+      at bottom left,
+      #001f27,
+      #060606 25%,
+      #060606 80%,
+      #2f011d 
+    );
+      /* background-color: #060606;
+      background: -moz-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -moz-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -moz-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -moz-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px);
+      background: -o-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -o-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -o-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -o-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px);
+      background: -webkit-radial-gradient(0 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -webkit-radial-gradient(100% 100%, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -webkit-radial-gradient(100% 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px), -webkit-radial-gradient(0 0, circle, rgba(204, 0, 0, 0) 100px, #195b5e 15px);
+      background-position: bottom left, top right;
+      -moz-background-size: 35% 35%;
+      -webkit-background-size: 35% 35%;
+      background-size: 35% 35%;
+      background-repeat: no-repeat;
+      height: 100vh; */
+}
