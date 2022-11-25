@@ -1,12 +1,12 @@
 .nav-heading {
     width: 80%;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     color: #acacac;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(80, 66, 66, 0.7);
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
 }
 nav ul{
     display: flex;
@@ -33,5 +33,18 @@ nav ul :hover {
     /* font-family: 'Source Code Pro', monospace; */
     font-size: 28px;
     font-weight: bold;
+}
+.sound {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sound-text {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.on-off p {
+    color: #e33fa1
 }
 

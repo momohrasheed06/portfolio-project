@@ -1,13 +1,14 @@
 import React from 'react';
 import logo from '../../assets/codelary4.png';
 import './NavBar.css';
+import {CloudSnow} from "phosphor-react";
 
 function NavBar() {
   return (
     <div className='nav-heading'>
         <div className='codelary'>
         <img src={logo} alt="codelary-logo" className='codelary-logo' />
-        <p>ODELARY</p>
+        <p>odelary</p>
         </div>
         <nav className='nav-bar'>
             <ul>
@@ -20,7 +21,15 @@ function NavBar() {
             </ul>
         </nav>
         <div className='sound'>
-            <button>Sound</button>
+            <div className='play-sound'>
+            <CloudSnow size={25} weight="light" color='#e33fa1'/>
+            </div>
+            <div className='sound-text'>
+                <p>Sound</p>
+            </div>
+            <div className='on-off'>
+                <p>OFF</p>
+            </div>
         </div>
     </div>
   )
